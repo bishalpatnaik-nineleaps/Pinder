@@ -42,8 +42,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         self.present(alert, animated: true, completion: nil)
     }
     @IBAction func loginPressed(sender: AnyObject) {
-        txtPassword.text = "nineleaps"
-        txtUsername.text = "JohnDoe"
+//        txtPassword.text = "nineleaps"
+//        txtUsername.text = "JohnDoe"
         if(txtUsername.text == "" || txtPassword.text == "") {
             self.displayAlert(title: "Failure", message: "Too short password or username")
         }
