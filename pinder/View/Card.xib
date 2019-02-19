@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Card" customModule="pinder" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="Card" customModule="pinder" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="268" height="411"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView autoresizesSubviews="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sushi2" translatesAutoresizingMaskIntoConstraints="NO" id="q0E-C9-pZr">
+                    <rect key="frame" x="0.0" y="0.0" width="268" height="411"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="411" id="hNF-PW-hVu"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Ru-a5-Vzk">
+                    <rect key="frame" x="0.0" y="371" width="268" height="20"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sushi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OfG-Nk-FVK">
+                    <rect key="frame" x="0.0" y="340" width="268" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="5QQ-sZ-ckq"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="103" id="dZe-AK-vnD"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="q0E-C9-pZr" secondAttribute="trailing" id="9at-Ie-Ej9"/>
+                <constraint firstItem="1Ru-a5-Vzk" firstAttribute="top" secondItem="OfG-Nk-FVK" secondAttribute="bottom" constant="-3" id="LlF-Xv-BsN"/>
+                <constraint firstItem="OfG-Nk-FVK" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="340" id="PQO-2R-AG4"/>
+                <constraint firstItem="q0E-C9-pZr" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="UHT-mc-zbE"/>
+                <constraint firstItem="1Ru-a5-Vzk" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="UfM-cP-MFm"/>
+                <constraint firstItem="OfG-Nk-FVK" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ZhN-mC-7TH"/>
+                <constraint firstAttribute="bottom" secondItem="q0E-C9-pZr" secondAttribute="bottom" id="hu7-SS-OrC"/>
+                <constraint firstItem="1Ru-a5-Vzk" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="iWA-57-ogB"/>
+                <constraint firstItem="q0E-C9-pZr" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="lTY-mB-CbY"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="OfG-Nk-FVK" secondAttribute="trailing" id="qGa-6v-pa4"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="1Ru-a5-Vzk" secondAttribute="trailing" id="qsZ-Nc-bKM"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="1Ru-a5-Vzk" secondAttribute="bottom" constant="20" id="tzI-du-0xx"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="petDescription" destination="1Ru-a5-Vzk" id="6Z6-Ct-URZ"/>
+                <outlet property="petImage" destination="q0E-C9-pZr" id="9f2-eH-Xgh"/>
+                <outlet property="petTitle" destination="OfG-Nk-FVK" id="eDO-Yc-J7e"/>
+            </connections>
+            <point key="canvasLocation" x="32" y="-68.815592203898049"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="sushi2" width="525" height="350.25"/>
+    </resources>
+</document>

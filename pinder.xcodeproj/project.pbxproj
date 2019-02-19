@@ -1,0 +1,827 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		195D9C38B6C02D0505AB8293 /* Pods_pinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11AD0160B83FEE6A866BD638 /* Pods_pinder.framework */; };
+		6D29AA4837B77043C715839F /* Pods_pinderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A3734E82AA6FC99F8B7167B /* Pods_pinderUITests.framework */; };
+		CA8DF9F04601468C9D88BA0A /* Pods_pinderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88ACF49FAA3E5B41B1AF24D4 /* Pods_pinderTests.framework */; };
+		E80212A32213E63D00A76885 /* LikedpetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80212A22213E63D00A76885 /* LikedpetsViewController.swift */; };
+		E80212A52214142900A76885 /* LikedPetsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80212A42214142900A76885 /* LikedPetsTableCell.swift */; };
+		E81476B9220EAFAD00A53778 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81476B8220EAFAD00A53778 /* AppDelegate.swift */; };
+		E81476BB220EAFAD00A53778 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81476BA220EAFAD00A53778 /* ViewController.swift */; };
+		E81476BE220EAFAD00A53778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E81476BC220EAFAD00A53778 /* Main.storyboard */; };
+		E81476C1220EAFAD00A53778 /* pinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E81476BF220EAFAD00A53778 /* pinder.xcdatamodeld */; };
+		E81476C3220EAFAE00A53778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E81476C2220EAFAE00A53778 /* Assets.xcassets */; };
+		E81476C6220EAFAE00A53778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E81476C4220EAFAE00A53778 /* LaunchScreen.storyboard */; };
+		E81476D1220EAFAE00A53778 /* pinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81476D0220EAFAE00A53778 /* pinderTests.swift */; };
+		E81476DC220EAFAE00A53778 /* pinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81476DB220EAFAE00A53778 /* pinderUITests.swift */; };
+		E82A8F5A2213007B008C21C5 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82A8F582213007B008C21C5 /* Card.swift */; };
+		E82A8F5B2213007B008C21C5 /* Card.xib in Resources */ = {isa = PBXBuildFile; fileRef = E82A8F592213007B008C21C5 /* Card.xib */; };
+		E837DD932216F28000BC6BB1 /* ApiCallWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E837DD922216F28000BC6BB1 /* ApiCallWrapper.swift */; };
+		E88E785E221157EC00AD09C6 /* SwipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88E785D221157EC00AD09C6 /* SwipeViewController.swift */; };
+		E88E786522117D2F00AD09C6 /* LoginClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88E786422117D2F00AD09C6 /* LoginClass.swift */; };
+		E892926722128A5000DAFA8E /* RetrivedPets.swift in Sources */ = {isa = PBXBuildFile; fileRef = E892926622128A5000DAFA8E /* RetrivedPets.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E81476CD220EAFAE00A53778 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E81476AD220EAFAD00A53778 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E81476B4220EAFAD00A53778;
+			remoteInfo = pinder;
+		};
+		E81476D8220EAFAE00A53778 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E81476AD220EAFAD00A53778 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E81476B4220EAFAD00A53778;
+			remoteInfo = pinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04A0AB1F9DC6D6B0E02AB36C /* Pods-pinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pinderTests.release.xcconfig"; path = "Target Support Files/Pods-pinderTests/Pods-pinderTests.release.xcconfig"; sourceTree = "<group>"; };
+		11AD0160B83FEE6A866BD638 /* Pods_pinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		297365C7537FA58A8A540DBC /* Pods-pinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pinderTests.debug.xcconfig"; path = "Target Support Files/Pods-pinderTests/Pods-pinderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A3734E82AA6FC99F8B7167B /* Pods_pinderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pinderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32D8C3459D64119CB0139D61 /* Pods-pinderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pinderUITests.release.xcconfig"; path = "Target Support Files/Pods-pinderUITests/Pods-pinderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5BDB2D7076D751B1BC7694B5 /* Pods-pinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pinder.release.xcconfig"; path = "Target Support Files/Pods-pinder/Pods-pinder.release.xcconfig"; sourceTree = "<group>"; };
+		88ACF49FAA3E5B41B1AF24D4 /* Pods_pinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pinderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC57BBBA638327CE2298D70 /* Pods-pinderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pinderUITests.debug.xcconfig"; path = "Target Support Files/Pods-pinderUITests/Pods-pinderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B122F432D8CEE53889616D58 /* Pods-pinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pinder.debug.xcconfig"; path = "Target Support Files/Pods-pinder/Pods-pinder.debug.xcconfig"; sourceTree = "<group>"; };
+		E80212A22213E63D00A76885 /* LikedpetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedpetsViewController.swift; sourceTree = "<group>"; };
+		E80212A42214142900A76885 /* LikedPetsTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedPetsTableCell.swift; sourceTree = "<group>"; };
+		E81476B5220EAFAD00A53778 /* pinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E81476B8220EAFAD00A53778 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E81476BA220EAFAD00A53778 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E81476BD220EAFAD00A53778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E81476C0220EAFAD00A53778 /* pinder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = pinder.xcdatamodel; sourceTree = "<group>"; };
+		E81476C2220EAFAE00A53778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E81476C5220EAFAE00A53778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E81476C7220EAFAE00A53778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E81476CC220EAFAE00A53778 /* pinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E81476D0220EAFAE00A53778 /* pinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pinderTests.swift; sourceTree = "<group>"; };
+		E81476D2220EAFAE00A53778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E81476D7220EAFAE00A53778 /* pinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E81476DB220EAFAE00A53778 /* pinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pinderUITests.swift; sourceTree = "<group>"; };
+		E81476DD220EAFAE00A53778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E82A8F582213007B008C21C5 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		E82A8F592213007B008C21C5 /* Card.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Card.xib; sourceTree = "<group>"; };
+		E837DD922216F28000BC6BB1 /* ApiCallWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCallWrapper.swift; sourceTree = "<group>"; };
+		E88E785D221157EC00AD09C6 /* SwipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeViewController.swift; sourceTree = "<group>"; };
+		E88E786422117D2F00AD09C6 /* LoginClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginClass.swift; sourceTree = "<group>"; };
+		E892926622128A5000DAFA8E /* RetrivedPets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetrivedPets.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E81476B2220EAFAD00A53778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195D9C38B6C02D0505AB8293 /* Pods_pinder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81476C9220EAFAE00A53778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA8DF9F04601468C9D88BA0A /* Pods_pinderTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81476D4220EAFAE00A53778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D29AA4837B77043C715839F /* Pods_pinderUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44035B2B3E376AFE77B409B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11AD0160B83FEE6A866BD638 /* Pods_pinder.framework */,
+				88ACF49FAA3E5B41B1AF24D4 /* Pods_pinderTests.framework */,
+				2A3734E82AA6FC99F8B7167B /* Pods_pinderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3EC0C6762762788BC046E0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B122F432D8CEE53889616D58 /* Pods-pinder.debug.xcconfig */,
+				5BDB2D7076D751B1BC7694B5 /* Pods-pinder.release.xcconfig */,
+				297365C7537FA58A8A540DBC /* Pods-pinderTests.debug.xcconfig */,
+				04A0AB1F9DC6D6B0E02AB36C /* Pods-pinderTests.release.xcconfig */,
+				AFC57BBBA638327CE2298D70 /* Pods-pinderUITests.debug.xcconfig */,
+				32D8C3459D64119CB0139D61 /* Pods-pinderUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E81476AC220EAFAD00A53778 = {
+			isa = PBXGroup;
+			children = (
+				E81476B7220EAFAD00A53778 /* pinder */,
+				E81476CF220EAFAE00A53778 /* pinderTests */,
+				E81476DA220EAFAE00A53778 /* pinderUITests */,
+				E81476B6220EAFAD00A53778 /* Products */,
+				B3EC0C6762762788BC046E0C /* Pods */,
+				44035B2B3E376AFE77B409B4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E81476B6220EAFAD00A53778 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E81476B5220EAFAD00A53778 /* pinder.app */,
+				E81476CC220EAFAE00A53778 /* pinderTests.xctest */,
+				E81476D7220EAFAE00A53778 /* pinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E81476B7220EAFAD00A53778 /* pinder */ = {
+			isa = PBXGroup;
+			children = (
+				E81476B8220EAFAD00A53778 /* AppDelegate.swift */,
+				E8584A3822144D1D00D9A16A /* Model */,
+				E82A8F572213007B008C21C5 /* View */,
+				E8584A3922144D3F00D9A16A /* Controller */,
+				E81476BC220EAFAD00A53778 /* Main.storyboard */,
+				E81476C4220EAFAE00A53778 /* LaunchScreen.storyboard */,
+				E81476C2220EAFAE00A53778 /* Assets.xcassets */,
+				E81476C7220EAFAE00A53778 /* Info.plist */,
+				E81476BF220EAFAD00A53778 /* pinder.xcdatamodeld */,
+			);
+			path = pinder;
+			sourceTree = "<group>";
+		};
+		E81476CF220EAFAE00A53778 /* pinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				E81476D0220EAFAE00A53778 /* pinderTests.swift */,
+				E81476D2220EAFAE00A53778 /* Info.plist */,
+			);
+			path = pinderTests;
+			sourceTree = "<group>";
+		};
+		E81476DA220EAFAE00A53778 /* pinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E81476DB220EAFAE00A53778 /* pinderUITests.swift */,
+				E81476DD220EAFAE00A53778 /* Info.plist */,
+			);
+			path = pinderUITests;
+			sourceTree = "<group>";
+		};
+		E82A8F572213007B008C21C5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E80212A42214142900A76885 /* LikedPetsTableCell.swift */,
+				E82A8F582213007B008C21C5 /* Card.swift */,
+				E82A8F592213007B008C21C5 /* Card.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E8584A3822144D1D00D9A16A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E88E786422117D2F00AD09C6 /* LoginClass.swift */,
+				E892926622128A5000DAFA8E /* RetrivedPets.swift */,
+				E837DD922216F28000BC6BB1 /* ApiCallWrapper.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E8584A3922144D3F00D9A16A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E81476BA220EAFAD00A53778 /* ViewController.swift */,
+				E88E785D221157EC00AD09C6 /* SwipeViewController.swift */,
+				E80212A22213E63D00A76885 /* LikedpetsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E81476B4220EAFAD00A53778 /* pinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E81476E0220EAFAE00A53778 /* Build configuration list for PBXNativeTarget "pinder" */;
+			buildPhases = (
+				FEE17D388DBFB7940C5593EE /* [CP] Check Pods Manifest.lock */,
+				E81476B1220EAFAD00A53778 /* Sources */,
+				E81476B2220EAFAD00A53778 /* Frameworks */,
+				E81476B3220EAFAD00A53778 /* Resources */,
+				60AF742456BCCDDFE69331DF /* [CP] Embed Pods Frameworks */,
+				E8CBAA7D2215A25400CB628F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pinder;
+			productName = pinder;
+			productReference = E81476B5220EAFAD00A53778 /* pinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E81476CB220EAFAE00A53778 /* pinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E81476E3220EAFAE00A53778 /* Build configuration list for PBXNativeTarget "pinderTests" */;
+			buildPhases = (
+				3C32EB567FA75B5002BE0DD9 /* [CP] Check Pods Manifest.lock */,
+				E81476C8220EAFAE00A53778 /* Sources */,
+				E81476C9220EAFAE00A53778 /* Frameworks */,
+				E81476CA220EAFAE00A53778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E81476CE220EAFAE00A53778 /* PBXTargetDependency */,
+			);
+			name = pinderTests;
+			productName = pinderTests;
+			productReference = E81476CC220EAFAE00A53778 /* pinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E81476D6220EAFAE00A53778 /* pinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E81476E6220EAFAE00A53778 /* Build configuration list for PBXNativeTarget "pinderUITests" */;
+			buildPhases = (
+				A105F2E282B3206F16353C4A /* [CP] Check Pods Manifest.lock */,
+				E81476D3220EAFAE00A53778 /* Sources */,
+				E81476D4220EAFAE00A53778 /* Frameworks */,
+				E81476D5220EAFAE00A53778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E81476D9220EAFAE00A53778 /* PBXTargetDependency */,
+			);
+			name = pinderUITests;
+			productName = pinderUITests;
+			productReference = E81476D7220EAFAE00A53778 /* pinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E81476AD220EAFAD00A53778 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Nineleaps;
+				TargetAttributes = {
+					E81476B4220EAFAD00A53778 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					E81476CB220EAFAE00A53778 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E81476B4220EAFAD00A53778;
+					};
+					E81476D6220EAFAE00A53778 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E81476B4220EAFAD00A53778;
+					};
+				};
+			};
+			buildConfigurationList = E81476B0220EAFAD00A53778 /* Build configuration list for PBXProject "pinder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E81476AC220EAFAD00A53778;
+			productRefGroup = E81476B6220EAFAD00A53778 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E81476B4220EAFAD00A53778 /* pinder */,
+				E81476CB220EAFAE00A53778 /* pinderTests */,
+				E81476D6220EAFAE00A53778 /* pinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E81476B3220EAFAD00A53778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E81476C6220EAFAE00A53778 /* LaunchScreen.storyboard in Resources */,
+				E81476C3220EAFAE00A53778 /* Assets.xcassets in Resources */,
+				E81476BE220EAFAD00A53778 /* Main.storyboard in Resources */,
+				E82A8F5B2213007B008C21C5 /* Card.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81476CA220EAFAE00A53778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81476D5220EAFAE00A53778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C32EB567FA75B5002BE0DD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pinderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60AF742456BCCDDFE69331DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pinder/Pods-pinder-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Poi/Poi.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Poi.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pinder/Pods-pinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A105F2E282B3206F16353C4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pinderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8CBAA7D2215A25400CB628F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\n";
+		};
+		FEE17D388DBFB7940C5593EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pinder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E81476B1220EAFAD00A53778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E88E785E221157EC00AD09C6 /* SwipeViewController.swift in Sources */,
+				E81476BB220EAFAD00A53778 /* ViewController.swift in Sources */,
+				E837DD932216F28000BC6BB1 /* ApiCallWrapper.swift in Sources */,
+				E88E786522117D2F00AD09C6 /* LoginClass.swift in Sources */,
+				E81476C1220EAFAD00A53778 /* pinder.xcdatamodeld in Sources */,
+				E80212A32213E63D00A76885 /* LikedpetsViewController.swift in Sources */,
+				E892926722128A5000DAFA8E /* RetrivedPets.swift in Sources */,
+				E81476B9220EAFAD00A53778 /* AppDelegate.swift in Sources */,
+				E82A8F5A2213007B008C21C5 /* Card.swift in Sources */,
+				E80212A52214142900A76885 /* LikedPetsTableCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81476C8220EAFAE00A53778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E81476D1220EAFAE00A53778 /* pinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81476D3220EAFAE00A53778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E81476DC220EAFAE00A53778 /* pinderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E81476CE220EAFAE00A53778 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E81476B4220EAFAD00A53778 /* pinder */;
+			targetProxy = E81476CD220EAFAE00A53778 /* PBXContainerItemProxy */;
+		};
+		E81476D9220EAFAE00A53778 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E81476B4220EAFAD00A53778 /* pinder */;
+			targetProxy = E81476D8220EAFAE00A53778 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E81476BC220EAFAD00A53778 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E81476BD220EAFAD00A53778 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E81476C4220EAFAE00A53778 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E81476C5220EAFAE00A53778 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E81476DE220EAFAE00A53778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E81476DF220EAFAE00A53778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E81476E1220EAFAE00A53778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B122F432D8CEE53889616D58 /* Pods-pinder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = pinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nineleaps.pinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E81476E2220EAFAE00A53778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BDB2D7076D751B1BC7694B5 /* Pods-pinder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = pinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nineleaps.pinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E81476E4220EAFAE00A53778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 297365C7537FA58A8A540DBC /* Pods-pinderTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = pinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nineleaps.pinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pinder.app/pinder";
+			};
+			name = Debug;
+		};
+		E81476E5220EAFAE00A53778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04A0AB1F9DC6D6B0E02AB36C /* Pods-pinderTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = pinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nineleaps.pinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pinder.app/pinder";
+			};
+			name = Release;
+		};
+		E81476E7220EAFAE00A53778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFC57BBBA638327CE2298D70 /* Pods-pinderUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = pinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nineleaps.pinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pinder;
+			};
+			name = Debug;
+		};
+		E81476E8220EAFAE00A53778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32D8C3459D64119CB0139D61 /* Pods-pinderUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = pinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nineleaps.pinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pinder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E81476B0220EAFAD00A53778 /* Build configuration list for PBXProject "pinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E81476DE220EAFAE00A53778 /* Debug */,
+				E81476DF220EAFAE00A53778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E81476E0220EAFAE00A53778 /* Build configuration list for PBXNativeTarget "pinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E81476E1220EAFAE00A53778 /* Debug */,
+				E81476E2220EAFAE00A53778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E81476E3220EAFAE00A53778 /* Build configuration list for PBXNativeTarget "pinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E81476E4220EAFAE00A53778 /* Debug */,
+				E81476E5220EAFAE00A53778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E81476E6220EAFAE00A53778 /* Build configuration list for PBXNativeTarget "pinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E81476E7220EAFAE00A53778 /* Debug */,
+				E81476E8220EAFAE00A53778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E81476BF220EAFAD00A53778 /* pinder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E81476C0220EAFAD00A53778 /* pinder.xcdatamodel */,
+			);
+			currentVersion = E81476C0220EAFAD00A53778 /* pinder.xcdatamodel */;
+			path = pinder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E81476AD220EAFAD00A53778 /* Project object */;
+}
